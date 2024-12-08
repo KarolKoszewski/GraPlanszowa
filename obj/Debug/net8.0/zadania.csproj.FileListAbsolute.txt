@@ -12,3 +12,4 @@ C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\refint\zadania.dll
 C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.pdb
 C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.genruntimeconfig.cache
 C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\ref\zadania.dll
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.sourcelink.json
