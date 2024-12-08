@@ -1,0 +1,14 @@
+C:\Users\Karol\RiderProjects\zadania\zadania\bin\Debug\net8.0\zadania.exe
+C:\Users\Karol\RiderProjects\zadania\zadania\bin\Debug\net8.0\zadania.deps.json
+C:\Users\Karol\RiderProjects\zadania\zadania\bin\Debug\net8.0\zadania.runtimeconfig.json
+C:\Users\Karol\RiderProjects\zadania\zadania\bin\Debug\net8.0\zadania.dll
+C:\Users\Karol\RiderProjects\zadania\zadania\bin\Debug\net8.0\zadania.pdb
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.AssemblyInfoInputs.cache
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.AssemblyInfo.cs
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.csproj.CoreCompileInputs.cache
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.dll
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\refint\zadania.dll
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.pdb
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\zadania.genruntimeconfig.cache
+C:\Users\Karol\RiderProjects\zadania\zadania\obj\Debug\net8.0\ref\zadania.dll
