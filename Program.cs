@@ -7,35 +7,40 @@ internal class Program
     //tworze graczy
     public static void Main(string[] args)
     {
-        
-        var nazwa = "Jakub";
-        PlayerWarrior gracz1 = new PlayerWarrior
+        PlayerWarrior ork = new PlayerWarrior
         {
-            Name = "Rafon",
+            Name = "Ciemny Ork",
             Position = 0,
             Score = 10,
         };
         
-        PlayerMag gracz2 = new PlayerMag()
+        PlayerMag czarodziej = new PlayerMag()
         {
-            Name = nazwa,
+            Name = "Gandalf",
             Position = 0,
             Score = 10,
         };
         
-        PlayerHealer gracz3 = new PlayerHealer()
+        PlayerHealer lekarz = new PlayerHealer()
         {
-            Name = "Bagieta",
+            Name = "Czarny medyk",
             Position = 0,
             Score = 10,
         };
         
-        Console.WriteLine(gracz2.Name);
+        Console.WriteLine("-------------------------");
         Console.WriteLine("Wprowadź liczbę graczy, Pamietaj, że maksymalna Ilość graczy to 3:");
         int a = int.Parse(Console.ReadLine());
         
+        Console.WriteLine("-------------------------");
         Console.WriteLine("Wprowadź liczbę pól na planszy, Pamiętaj, że minimalna liczba pól to 35:");
         int b = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("-------------------------");
+        Console.WriteLine("Wprowadź liczbę pól specjalnych: ");
+        int c = int.Parse(Console.ReadLine());
+        
+        Board plansza = new Board(b,c);
         if (a > 3 || b < 35)
         {
             Console.WriteLine("Błąd! podaj właściwe wartości");
@@ -43,6 +48,11 @@ internal class Program
         }
         Game gra = new Game(a,b);
         
+        Kostka dice = new Kostka(a);
         
+        
+
+
+
     }
 }
