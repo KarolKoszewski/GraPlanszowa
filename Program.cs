@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Runtime.CompilerServices;
 using zadania;
 
 internal class Program
@@ -48,9 +49,17 @@ internal class Program
         }
         Game gra = new Game(a,b);
         
-        Kostka dice = new Kostka(a);
         
-        
+        Kostka dice = new Kostka(a,0,0,0);
+        do
+        {
+            ork.Position = ork.Position + dice.liczbaOczekGracz1;
+            czarodziej.Position = czarodziej.Position + dice.liczbaOczekGracz2;
+            lekarz.Position = lekarz.Position + dice.liczbaOczekGracz3;
+        } while (ork.Position!=b || czarodziej.Position!=b || lekarz.Position!=b);
+        Console.WriteLine("Koniec gry");
+
+
 
 
 
